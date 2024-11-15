@@ -1,0 +1,236 @@
+
+/*Default*/
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 400 to 700 */
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+
+}
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: white;  
+}
+.contenedor{
+background: white;
+width: 100%;
+margin: auto;
+display: flex;
+flex-flow:row wrap;
+font-size: 1.5em;
+}
+
+  header {
+    background-color: #F2F2F2 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;    
+    
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    padding: 10px 20px;
+    
+  }
+  .nav-links {
+    list-style: none;    
+    display: flex;
+    gap: 50px;
+    
+  }
+  .nav-links li {
+   
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px; 
+      }
+
+
+    .nav-links li a {      
+      color: #41403F;
+      text-decoration: none;      
+    }    
+    
+    .nav-links li a:hover {
+      color: #B53148;      
+    }
+
+    .section1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .image1{
+  width: 100%;
+  }   
+  
+ .visita{
+  width: 50%;        
+  position: absolute; /* Añadido para solución */
+  font-size: 20px;
+ }
+ 
+ .section2{
+display: flex;
+justify-content: space-between;
+ }
+
+ .articleSevilla {
+padding: 30px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+
+ }
+
+ .item{
+font-weight: 800;
+margin: 20px;
+font-size:larger;
+
+
+ }
+
+ h1 { 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 0px;
+  font-size: 50pt;
+  color:white ;
+}
+.section3{
+  display:flex;
+  margin: 0 auto;
+  padding: 20px;
+  flex-direction: column;
+  font-size: 1.2em;
+  align-items: center;
+  width: 70%;
+  }
+  
+  .intro{
+  padding-top: 1.5%;
+  }
+  .h2Pre { 
+    padding: 2% 2%;
+    
+  
+  }
+  .video{
+    margin: 0 auto;
+    padding-top: 4%;
+    display: flex;
+  justify-content: center;
+  }
+  
+  .image2{
+  margin: 0 auto;
+  padding-top: 2% ;
+  padding-left: 10%;
+  width: 100%;
+  }
+  
+  .cat{
+    margin: 0 auto;
+    padding: 20px;  
+  }
+  .lista{
+padding: 10%;
+
+  }
+  
+
+ /* Menú amburguesa*/
+.burger{
+
+  flex-direction: column;
+  cursor :pointer;
+  display: none;
+}
+
+ .line {
+width: 30px;
+height: 3px;
+background-color: #41403F;
+margin: 5px 0;
+ } 
+
+ .pie{
+  display: flex;
+  width: 100%;  
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem;
+  
+ }
+ .social{
+display: flex;
+
+justify-content: space-between;
+padding: 20px;
+
+ }
+
+
+
+ /* Responsive*/
+
+ @media (max-width:768px){
+
+nav {
+position : relative;
+
+}
+
+.burger{
+  display:flex;  
+}
+
+.section2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-links{
+
+display:none;
+flex-direction: column;
+position: absolute;
+top: 100%;
+width: 100%;
+left: 0;
+margin:0;
+text-align: center;
+transition: all 0.3ms;
+width: 100%;
+padding: 30px;
+}
+
+.nav-links.active {
+  padding-left: 0px;
+  display: flex;
+}
+.contenedor{
+font-size: 0.9em;
+
+}
+
+}
+
+
+
+ 
