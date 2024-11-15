@@ -1,0 +1,23 @@
+{
+  "name": "locality",
+  "version": "1.0.0",
+  "source": "src/Portada.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build",
+    "parcel:dev": "parcel",
+    "clean": "rimraf dist .parcel-cache",
+    "parcel:build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.12.0",
+    "rimraf": "^6.0.1"
+  }
+}
