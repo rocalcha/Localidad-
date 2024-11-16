@@ -11,13 +11,13 @@
     "clean": "rimraf dist .parcel-cache",
     "parcel:build": "parcel build"
   },
-  {
-    "targets": {
+  
+  "targets": {
       "default": {
         "distDir": "./output"
       }
-    }
-  }
+    },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
