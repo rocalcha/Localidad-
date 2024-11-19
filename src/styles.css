@@ -29,41 +29,53 @@ flex-flow:row wrap;
 font-size: 1.5em;
 }
 
+.logo{
+max-width: 4rem;
+
+}
+
   header {
     background-color: #F2F2F2 ;
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 30px 20px;    
+    padding: 30px 20px;
+    align-items: center;    
     
   }
-  nav {
+  .nav {
     display: flex;
     justify-content: space-between;    
     align-items: center;
     padding: 10px 20px;
     
   }
-  .nav-links {
+  .nav-list {
     list-style: none;    
     display: flex;
     gap: 50px;
     
   }
-  .nav-links li {
+  .nav-list li {
    
     font-family: Arial, Helvetica, sans-serif;;
     font-size: 20px; 
       }
 
 
-    .nav-links li a {      
+    .nav-list li a {      
       color: #41403F;
-      text-decoration: none;      
+      text-decoration: none; 
+      transition: color 0.3;     
     }    
     
-    .nav-links li a:hover {
+    .nav-list li a:hover {
       color: #B53148;      
+    }
+
+    .abrir-menu{
+      display: none;
+
     }
 
     .section1{
@@ -75,6 +87,7 @@ font-size: 1.5em;
 
     .image1{
   width: 100%;
+ 
   }   
   
  .visita{
@@ -150,22 +163,6 @@ font-size:larger;
 padding: 10%;
 
   }
-  
-
- /* Menú amburguesa*/
-.burger{
-
-  flex-direction: column;
-  cursor :pointer;
-  display: none;
-}
-
- .line {
-width: 30px;
-height: 3px;
-background-color: #41403F;
-margin: 5px 0;
- } 
 
  .pie{
   display: flex;
@@ -181,22 +178,31 @@ display: flex;
 
 justify-content: space-between;
 padding: 20px;
-
  }
-
-
 
  /* Responsive*/
 
- @media (max-width:768px){
+ @media (max-width:768px){  
 
-nav {
-position : relative;
+.abrir-menu {
+display: block;
+
+}
+.nav {
+
+display: none;
 
 }
 
-.burger{
-  display:flex;  
+.contenedor{
+font-size: 0.9em;
+position: relative;
+}
+
+.section1{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
 
 .section2{
@@ -205,32 +211,4 @@ position : relative;
   align-items: center;
 }
 
-.nav-links{
-
-display:none;
-flex-direction: column;
-position: absolute;
-top: 100%;
-width: 100%;
-left: 0;
-margin:0;
-text-align: center;
-transition: all 0.3ms;
-width: 100%;
-padding: 30px;
 }
-
-.nav-links.active {
-  padding-left: 0px;
-  display: flex;
-}
-.contenedor{
-font-size: 0.9em;
-
-}
-
-}
-
-
-
- 
