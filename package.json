@@ -10,12 +10,7 @@
     "parcel:dev": "parcel",
     "clean": "rimraf dist .parcel-cache",
     "parcel:build": "parcel build"
-  },
-  "targets": {
-    "default": {
-      "publicUrl": "./"
-    }
-  },
+  },  
   "keywords": [],
   "author": "",
   "license": "ISC",
