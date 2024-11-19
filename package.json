@@ -1,7 +1,7 @@
 {
   "name": "locality",
   "version": "1.0.0",
-  "source": "src/Portada.html",
+  "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
