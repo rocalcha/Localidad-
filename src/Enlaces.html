@@ -16,9 +16,14 @@
 <include src="./header.html"></include>        
 <main>
 <section class="section1">    
-<img class="image1"
-src="./images/seville_cathedral.avif"
-alt="Catedral de Sevilla con Giralda">
+        <img class="image1"
+        sizes="(ancho máximo: 2048px) 100vw, 2048px"
+        srcset="
+        ./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_480.jpg 480w,
+        ./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_1418.jpg 1418w,
+        ./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_2048.jpg 2048w"
+        src="./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_2048.jpg"
+        alt="Catedral de Sevilla con Giralda">
 
 </section>
 <div class="visita"><h1 class="dancing-script">Enlaces</h1></div>
@@ -65,7 +70,7 @@ alt="Catedral de Sevilla con Giralda">
         
         </div>
         <footer class="pie">
-                <img class="clip-cicle logo"  src="./images/tulipan3.jpg" alt ="tulipan" width="100"  height="80" >
+                <a href="./index.html" aria-label="Ir a la página inicio"><img class="clip-cicle" src="./images/tulipan3.jpg" alt ="tulipan" width="100"  height="80" ></a>
                 <ul class="nav-footer">        
                     <li><a href="./index.html" aria-label="Ir a la página inicio"></a></li>		
                     <li><a href="./Categoria.html" aria-label="Página de como vivir en Sevilla">CATEGORÍA</a></li>
