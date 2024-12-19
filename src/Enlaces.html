@@ -7,53 +7,53 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css" >
+    <link rel="stylesheet" href="./styles.css">
     <script type="module" src="./app.js"></script>
 </head>
 <body> 
+
 <div class="contenedor">
-<main class="main">
+<include src="./header.html"></include>        
+<main>
 <section class="section1">    
 <img class="image1"
 src="./images/seville_cathedral.avif"
 alt="Catedral de Sevilla con Giralda">
-<div class="visita"><h1 class="dancing-script">Enlaces</h1></div>
+
 </section>
+<div class="visita"><h1 class="dancing-script">Enlaces</h1></div>
 <section class="section3">
 <h2 class="item">Enlaces y Documentación</h2>
 <p class="intro">Aqui recogo toda la documentación y enlaces a las fuentes de las que se ha sacado el contenido.</p>
 <ul class="lista">
-<li>Página Portada
+<li class="destacado">Página Portada
 <ul>
 <li><a href="https://www.andalucia360travel.com/descubrir/catedral-de-sevilla/">Imagen de la Catedral de Sevilla</a></li>
 <li><a href="https://www.visitarsevilla.info/informacion-sevilla.asp">Contenido de artículo Localidad</a></li>
 <li><a href="https://www.guiasevilla.com/que-ver">Contenido de artículo Monumentos</a></li>
+<li><a href="https://www.freepik.es/icono/cerrar_8373280">Icono de Icon Hubs</a></li>
+<li><a href="https://icon-icons.com/es/icono/menu-boton/72989">Icono abrir hamburguesa</a></li>
         </ul>
       </li>   
-        <li>Página Presentación
+        <li class="destacado">Página Presentación
             <ul>
     <li><a href="https://www.ruralidays.com/viajar/guia-de-viaje/que-ver-gratis-en-sevilla/">Imagen de Sevilla </a></li>            
     <li><a href="https://www.andalucia.org/es/provincia-sevilla">Contenido Página Presentación</a></li>
     <li><a href="https://www.youtube.com/watch?v=XeAsZzzU4lA">Vídeo de Youtube sobre Sevilla</a></li>  
           </ul>
           </li>
-          <li>Página Categoría
+          <li class="destacado">Página Categoría
             <ul>
     <li><a href="https://www.viacelere.com/blog/vivir-en-sevilla/">Imagen Plaza de España</a></li>
     <li><a href="https://www.ruralidays.com/viajar/guia-de-viaje/que-ver-gratis-en-sevilla/">Contenido de las listas</a></li>
     <li><a href="https://www.sevillaenundia.com/visita-a-la-catedral-de-sevilla/">Imagen Catedral de Sevilla</a></li>
     <li><a href="https://www.ruralidays.com/viajar/guia-de-viaje/que-ver-gratis-en-sevilla/">Imagen Real Alcazar, Archivo de Indias, Parque de Maria Luisa</a></li>
-    <li><a href="https://www.elmundo.es/como/2023/12/14/657b015e21efa08a718b459a.html">Imagen Torre del Oro</a><li>
-            </ul>
-          </li>
-          <li>Página Detalle
-            <ul>
-    <li><a href="https://www.lacatedraldesevilla.org/historia-catedral-sevilla.html">Imagen Catedral de Sevilla y Contenido</a></li>
-    <li><a href="https://www.youtube.com/watch?v=A9UfLj0LVgk">Video Catedral de Sevilla</a></li>
-    
-            </ul>
+    <li><a href="https://www.elmundo.es/como/2023/12/14/657b015e21efa08a718b459a.html/">Imagen Torre del Oro</a></li>
+    <li><a href="https://www.lacatedraldesevilla.org/historia-catedral-sevilla.html/">Imagen Catedral de Sevilla y Contenido</a></li>
+    <li><a href="https://www.youtube.com/watch?v=A9UfLj0LVgk/">Video Catedral de Sevilla</a></li>    
+            </ul>        
           </li> 
-          <li>Página Detalle 2
+          <li class="destacado">Página Detalle 2
             <ul>
     <li><a href="https://www.catedraldesevilla.es/la-catedral/edificio/los-anadidos-renacentistas-capilla-real-sala-capitular-y-sacristia-mayor/">Imagen Capilla Real</a></li>
     <li><a href="https://es.wikipedia.org/wiki/Capilla_Real_de_la_catedral_de_Sevilla">Contenido de la Capilla Real, Wikipedia</a></li>    
@@ -61,14 +61,18 @@ alt="Catedral de Sevilla con Giralda">
           </li>     
     </ul> 
 </section>   
-        </main>
+        </main>       
         
+        </div>
         <footer class="pie">
-                <div class="social">
-                    <div class="faceb"><a href="#"><img  src="./images/icons8-facebook-50.png"></a></div>            
-                    <div class="faceb"><a href="#"><img  src="./images/icons8-twitterx-50.png"></a></div>
-                </div>
-            </footer> 
-        </div>    
+                <img class="clip-cicle logo"  src="./images/tulipan3.jpg" alt ="tulipan" width="100"  height="80" >
+                <ul class="nav-footer">        
+                    <li><a href="./index.html" aria-label="Ir a la página inicio"></a></li>		
+                    <li><a href="./Categoria.html" aria-label="Página de como vivir en Sevilla">CATEGORÍA</a></li>
+                    <li><a href="./Presentacion.html" aria-label="Página de presentación">PRESENTACIÓN</a></li>
+                    <li><a href="./Enlaces.html" aria-label="Página de enlaces">ENLACES</a></li>		
+                    </ul>        
+            
+            </footer>          
 </body>
 </html>

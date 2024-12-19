@@ -11,14 +11,19 @@
     <script type="module" src="./app.js"></script>
 </head>
 <body>
+    <include src="./header.html"></include> 
     <div class="contenedor">
     <main>
         <section class="section1">
-            <img class="image1"
-            src="./images/Capilla_Real.jpg"
-            alt="Catedral de Sevilla, Capilla Real">
-            <div class="visita"><h1 class="dancing-script">Capilla Real</h1></div>
+           
+            <picture class="image1">
+                <source media="(max-width: 799px)" srcset="./images/Capilla_Real/Capilla_Real_w_800.webp">
+                <source media="(min-width: 800px)" srcset="./images/Capilla_Real/Capilla_Real_w_1000.webp">
+                <source media="(min-width: 800px)" srcset="./images/Capilla_Real/Capilla_Real_w_1900.webp">
+                <img src="./images/Capilla_Real/Capilla_Real_w_1900.webp" alt="Capilla Real Catedral de Sevilla">
+              </picture>  
         </section>
+        <div class="visita"><h1 class="dancing-script">Capilla Real</h1></div>
 <section class="section3">
 <article class="articlePre">
     <p class="intro">La Capilla Real de la Catedral de Sevilla, (España), está situada en la cabecera de la catedral de Sevilla, y en ella están sepultados, entre otros miembros de la realeza, los monarcas Fernando III de Castilla, Alfonso X de Castilla y Pedro I de Castilla.1​</p>
@@ -37,11 +42,14 @@
 </section>
 </main>
 <footer class="pie">
-    <div class="social">
-        <div class="faceb"><a href="#"><img  src="./images/icons8-facebook-50.png"/></a></div>            
-        <div class="faceb"><a href="#"><img  src="./images/icons8-twitterx-50.png"/></a></div>
-    </div>
-</footer>
+    <img class="clip-cicle logo"  src="./images/tulipan3.jpg" alt ="tulipan" width="100"  height="80" >
+    <ul class="nav-footer">        
+        <li><a href="./index.html" aria-label="Ir a la página inicio"></a></li>		
+        <li><a href="./Categoria.html" aria-label="Página de como vivir en Sevilla">CATEGORÍA</a></li>
+        <li><a href="./Presentacion.html" aria-label="Página de presentación">PRESENTACIÓN</a></li>
+        <li><a href="./Enlaces.html" aria-label="Página de enlaces">ENLACES</a></li>        		
+        </ul>    
+</footer>   
 </div>  
 </body>
 </html>
