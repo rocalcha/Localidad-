@@ -8,18 +8,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-    <script type="module" src="./app.js"></script>
+    <script defer src="./app.js"></script>
 </head>
 <body>
     <include src="./header.html"></include> 
     <div class="contenedor">
     <main class="main">
         <section class="section1">
-            <picture class="image1">
-                <source media="(max-width: 799px)" srcset="./images/catedral_sevilla_1/catedral-sevilla-1_recortada,w_800.jpg">
-                <source media="(min-width: 800px)" srcset="./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_2048.jpg">
-                <img src="./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_2048.jpg" alt="Catedral de Sevilla">
-              </picture>
+            <picture class="image2">
+                <source media="(max-width: 799px)" srcset="./images/catedral_sevilla_1/catedral-sevilla-1_recortada,w_800.webp">
+                <source media="(min-width: 800px)" srcset="./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_1418.webp">
+                <img loading="lazy" src="./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_1418.webp" loading="lazy" alt="Catedral de Sevilla">
+            </picture>   
            
         </section>
         <div class="visita"><h1 class="dancing-script">Catedral de Sevilla</h1></div>
@@ -36,10 +36,11 @@
 
 <li class="cat">Nave central</li>
 
-<img class="image2" src="./images/nave_central/nave_central_w_1024.jpg"
+<img class="image2"  src="./images/nave_central/nave_central_w_1024.webp"
+loading=lazy
   srcset="
-  ./images/nave_central/nave_central_w_1024.jpg 1024w,
-  ./images/nave_central/nave_central_w_800.jpg 800w      
+  ./images/nave_central/nave_central_w_1024.webp 1024w,
+  ./images/nave_central/nave_central_w_800.webp 800w      
     " 
 
   sizes="(min-width: 576px) 33.3vw, 100vw"
@@ -52,20 +53,20 @@
     <picture class="imagen2">
         <source media="(max-width: 799px)" srcset="./images/Capilla_Real/Capilla_Real_w_800.webp">
         <source media="(min-width: 800px)" srcset="./images/Capilla_Real/Capilla_Real_w_1000.webp">
-        <img src="./images/Capilla_Real/Capilla_Real_w_1000.webp" alt="Capilla Real Catedral de Sevilla">
+        <img src="./images/Capilla_Real/Capilla_Real_w_1000.webp" loading=lazy alt="Capilla Real Catedral de Sevilla">
       </picture>  
     </li>
    
 <li class="cat">Tesoro y Pinacoteca</li>
     </ol>
 <p class="intro">A continuación ponemos un video sobre la catedral de Sevilla para que la conozcais un poco más.</p>
-<div class="video"><iframe width="660" height="415" src="https://www.youtube.com/embed/A9UfLj0LVgk?si=oWvzz7rIxvlaHsTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>   
+<div class="video"><iframe loading=lazy width="660" height="415" src="https://www.youtube.com/embed/A9UfLj0LVgk?si=oWvzz7rIxvlaHsTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>   
 
 </article>
 </section>
 </main>
 <footer class="pie">
-    <img class="clip-cicle logo"  src="./images/tulipan3.jpg" alt ="tulipan" width="100"  height="80" >
+    <a href="./index.html" aria-label="Ir a la página inicio"><img class="clip-cicle" loading=lazy src="./images/tulipan3.jpg" alt ="tulipan" width="100"  height="80" ></a>
     <ul class="nav-footer">        
         <li><a href="./index.html" aria-label="Ir a la página inicio"></a></li>		
         <li><a href="./Categoria.html" aria-label="Página de como vivir en Sevilla">CATEGORÍA</a></li>

@@ -8,20 +8,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css" >
-    <script type="module" src="./app.js"></script>
+    <script defer src="./app.js"></script>
 </head>
 <body>
     <include src="./header.html"></include>   
     <div class="contenedor">
     <main>
         <section class="section1">
-
             <picture class="image1">
                 <source srcset="./images/vivir_en_Sevilla.jpg?as=webp" type="image/webp" />
                 <source srcset="./images/vivir_en_Sevilla.jpg?as=webp&width=1920" type="image/webp" />
                 <source srcset="./images/vivir_en_Sevilla.jpg?as=webp&width=800" type="image/webp" />
                 <source srcset="./images/vivir_en_Sevilla.jpg?as=webp&width=460" type="image/webp" />
-                <img class="image1" src="./images/vivir_en_Sevilla.jpg?width=1920" alt="test image" />
+                <img class="image1" loading="lazy" src="./images/vivir_en_Sevilla.jpg?width=1920" alt="test image" />
             </picture>        
             
            
@@ -35,20 +34,20 @@
               
 <ol class="orden">
 <li class="cat">La Catedral de Sevilla y Giralda<a href="./Detalle.html">
-   
+             
         <picture class="image2">
-            <source media="(max-width: 799px)" srcset="./images/catedral_sevilla_1/catedral-sevilla-1_recortada,w_800.jpg">
-            <source media="(min-width: 800px)" srcset="./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_1418.jpg">
-            <img src="./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_1418.jpg" alt="Catedral de Sevilla">
-          </picture>   
+            <source media="(max-width: 799px)" srcset="./images/catedral_sevilla_1/catedral-sevilla-1_recortada,w_800.webp">
+            <source media="(min-width: 800px)" srcset="./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_1418.webp">
+            <img loading="lazy" src="./images/catedral_sevilla_1/catedral-sevilla-1_syezj8_c_scale,w_1418.webp" loading="lazy" alt="Catedral de Sevilla">
+        </picture>   
 </a>
 <p class="intro">Echa un vistazo a la espectacular Catedral de Sevilla y a la Giralda de forma gratuita. Hay disponibles 80 plazas todos los jueves no festivos con hora de entrada 14:45h., únicamente disponibles en venta ONLINE. Si no encuentras en el calendario plazas disponibles, es que se han agotado.</p>
 
 </li>
 
 <li class="cat">Real Alcazar
-    <img class="image2" src="./images/alcazar/alcazar_w640.jpg"
-  srcset="./images/alcazar/alcazar_w960.jpg 1.5x, ./images/alcazar/alcazar_w1280.jpg 2x, ./images/alcazar/alcazar_w1920.jpg 3x"
+    <img class="image2" loading="lazy" src="./images/alcazar/alcazar_w640.webp"
+  srcset="./images/alcazar/alcazar_w960.webp 1.5x, ./images/alcazar/alcazar_w1280.jpg 2x, ./images/alcazar/alcazar_w1920.webp 3x"
   alt="Alcazar de Sevilla">
 
 <p class="intro">Este lugar declarado Patrimonio de la Humanidad también se puede visitar gratuitamente los lunes. De abril a septiembre la entrada gratuita, de 18:00 a 19:00 horas, y de octubre a marzo, de 16:00 a 17:00 horas. Recuerda conservar tu ticket, ya que garantiza la entrada gratuita al Anticuario del Parasol Metropol y al Centro de Cerámica de Triana.
@@ -60,10 +59,11 @@
     <img class="image2"
 sizes="(max-width: 1000px) 100vw, 1000px"
 srcset="
-./images/archivo/archivo_slvovb_c_scale,w_500.jpg 500w,
-./images/archivo/archivo_slvovb_c_scale,w_849.jpg 849w,
-./images/archivo/archivo_slvovb_c_scale,w_1000.jpg 1000w"
-src="./images/archivo/archivo_slvovb_c_scale,w_1000.jpg"
+./images/archivo/archivo_slvovb_c_scale,w_500.webp 500w,
+./images/archivo/archivo_slvovb_c_scale,w_849.webp 849w,
+./images/archivo/archivo_slvovb_c_scale,w_1000.webp 1000w"
+src="./images/archivo/archivo_slvovb_c_scale,w_1000.webp"
+loading="lazy"
 alt="Archivo de indias">   
    
     
@@ -75,10 +75,11 @@ alt="Archivo de indias">
     <img class="image2"
 sizes="(max-width: 1000px) 100vw, 1000px"
 srcset="
-./images/parque/parque_maria_luisa_500w.jpg 500w,
-./images/parque/parque_maria_luisa_800w.jpg 800w,
-./images/parque/parque_maria_luisa_1000w.jpg 1000w"
-src="./images/parque/parque_maria_luisa_1000w.jpg"
+./images/parque/parque_maria_luisa_500w.webp 500w,
+./images/parque/parque_maria_luisa_800w.webp 800w,
+./images/parque/parque_maria_luisa_1000w.webp 1000w"
+src="./images/parque/parque_maria_luisa_1000w.webp"
+loading="lazy"
 alt="Parque de Maria Luisa"> 
     
   
@@ -89,10 +90,11 @@ alt="Parque de Maria Luisa">
     <img class="image2"
     sizes="(max-width: 1920px) 100vw, 1920px"
     srcset="
-    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_480.jpg 480w,
-    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1507.jpg 1507w,
-    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1920.jpg 1920w"
-    src="./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1920.jpg"
+    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_480.webp 480w,
+    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1507.webp 1507w,
+    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1920.webp 1920w"
+    src="./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1920.webp"
+    loading="lazy"
     alt="">
 
 
@@ -101,7 +103,7 @@ alt="Parque de Maria Luisa">
 </ol>
 </section></main> 
  <footer class="pie">
-    <img class="clip-cicle logo"  src="./images/tulipan3.jpg" alt ="tulipan" width="100"  height="80" >
+    <a href="./index.html" aria-label="Ir a la página inicio"><img class="clip-cicle" loading="lazy" src="./images/tulipan3.jpg" alt ="tulipan" width="100"  height="80" ></a>
     <ul class="nav-footer">        
         <li><a href="./index.html" aria-label="Ir a la página inicio"></a></li>		
         <li><a href="./Categoria.html" aria-label="Página de como vivir en Sevilla">CATEGORÍA</a></li>

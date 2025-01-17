@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css" >
-    <script type="module" src="./app.js"></script>
+    <script defer src="./app.js"></script>
 </head>
 <body>
 <include src="./header.html"></include>     
@@ -18,10 +18,11 @@
     <img
     sizes="(max-width: 1920px) 100vw, 1920px"
     srcset="
-    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_480.jpg 480w,
-    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1507.jpg 1507w,
-    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1920.jpg 1920w"
-    src="./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1920.jpg"
+    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_480.webp 480w,
+    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1507.webp 1507w,
+    ./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1920.webp 1920w"
+    src="./images/Torre-del-Oro/Torre-del-Oro-Sevilla_veb7rw_c_scale,w_1920.webp" 
+    loading=lazy
     alt="">
    
 </section>
@@ -33,22 +34,22 @@
         S
         </text>
         <text y="50%" x="10%" class="char">
-       e
+         e
         </text>
         <text y="50%" x="20%" class="char">
-       v
+         v
         </text>
         <text y="50%" x="30%" class="char">
          i 
         </text>
         <text y="50%" x="40%" class="char">
-          l
+         l
         </text>
         <text y="50%" x="50%" class="char">
-          l
+         l
         </text>
         <text y="50%" x="60%" class="char">
-          a  
+         a  
         </text>  
                 
         </g>
@@ -73,11 +74,11 @@
 <p class="intro">La provincia de Sevilla es un mosaico de culturas que hunden sus raíces en el más remoto pasado. La gran cuenca fluvial del Guadalquivir, Sierra Morena y las marismas del Parque Natural de Doñana, permiten ofrecer al visitante un mapa paisajístico de grandes humedales, refugio de una variada avifauna; recorrer senderos serranos de exuberante vegetación mediterránea; contemplar al toro bravo pastando en dehesas de centenarias encinas, o perderse en tierras llanas de suaves alcores donde se asientan pueblos acogedores y ciudades monumentales que son vivo testimonio de un pasado histórico de gran esplendor.</p>
 <p class="intro">A continuación añado un vídeo introductorio para que conozcáis un poco más a la ciudad de Sevilla y todos los encantos que tiene.</p>
 </article>
-<div class="video"><iframe width="660" height="415" src="https://www.youtube.com/embed/XeAsZzzU4lA?si=DfBihoLZ4dYrbg0y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video"><iframe loading=lazy width="660" height="415" src="https://www.youtube.com/embed/XeAsZzzU4lA?si=DfBihoLZ4dYrbg0y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 </section>
 </main>
 <footer class="pie">
-  <a href="./index.html" aria-label="Ir a la página inicio"><img class="clip-cicle" src="./images/tulipan3.jpg" alt ="tulipan" width="100"  height="80" ></a>
+  <a href="./index.html" aria-label="Ir a la página inicio"><img class="clip-cicle" loading=lazy src="./images/tulipan3.jpg" alt ="tulipan" width="100"  height="80" ></a>
     <ul class="nav-footer">        
         <li><a href="./index.html" aria-label="Ir a la página inicio"></a></li>		
         <li><a href="./Categoria.html" aria-label="Página de como vivir en Sevilla">CATEGORÍA</a></li>
