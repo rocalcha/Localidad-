@@ -486,3 +486,16 @@ padding: 3em;
 }
 
 }
+@media (max-width: 462px){
+
+.section2{
+
+display: flex;
+flex-direction: column;
+
+
+}
+
+
+
+}
